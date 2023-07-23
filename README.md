@@ -31,7 +31,7 @@
 <h3 align="center">GoHit</h3>
 
   <p align="center">
-    project_description
+    The Ultimate Tennis Companion
     <br />
     <br />
     <a href="https://github.com/DevAggarwal01/go-hit/issues">Report Bug</a>
