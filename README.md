@@ -113,8 +113,9 @@ User data can also be deleted upon request to: gohitcreator@gmail.com
 - Send email, username, and password
 
 ### Data collected:
-- Approximate location
-  - Zip code entry or user's explicit choice share one-time location 
+- Location: Longitude and Latitude
+  - Zip code entry (Approximate)
+  - User's explicit choice to share one-time location (Precise)
 - Authentication credentials
   - Email - login
   - Password - login
