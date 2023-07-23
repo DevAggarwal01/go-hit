@@ -18,12 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -81,24 +75,21 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Introducing GoHit, the ultimate tennis app designed to elevate your game and connect you with a vibrant community of players and coaches! 
+Are you searching for fresh competition and new practice partners? Look no further! GoHit lets you easily find and connect with players nearby who share your passion for tennis. Say goodbye to long drives and hello to more playing time.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Not just for players, GoHit also caters to those seeking professional guidance to hone their skills. Discover experienced coaches in your area who can take your game to the next level. Whether you're a beginner or an advanced player, there's a coach perfectly suited to your needs.
 
+Coaches, this app is your gateway to a world of eager students eager to learn from the best. Showcase your expertise and boost your coaching business with GoHit's powerful platform.
 
+Stay connected with your tennis buddies through the in-app messaging feature, and never miss a training session or match with the handy reminders system.
 
+Join the thriving tennis community and take your passion for the sport to new heights with GoHit. Download the app now and unlock a world of exciting possibilities!
+
+Ready to experience the future of tennis? Download GoHit today!
 ### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* Flutter
+* Firebase
 
 
 
@@ -121,7 +112,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/DevAggarwal01/go-hit.git
    ```
 3. Install NPM packages
    ```sh
@@ -147,97 +138,106 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- Features -->
+## Features
+- Registration and submission of information that is by no means specific, personal, or with the intent to be shared.
+- Ability to find other players nearest an individual user's location
+- Ability to find coaches nearest an individual user's location
+- In-app messaging to allow two players two agree on a date and time by means of conversation
+- Settings (changing user info, deleting account, etc.)
+- Player profiles
+- A successfully working database that allows for retrieval, creation, and restriction of data in order to maintain functionality of the app
+- Push notifications / alerts for messages as part of in-app texting
+- Personal reminders for scheduled match times, also shareable with other users
+## TO-DO
+- A schedule, both for planning and for finding others available at the same time
+- A map used to visualize placement of users as well as perhaps tennis courts
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+See the [open issues](https://github.com/DevAggarwal01/go-hit/issues) for a full list of proposed features (and known issues).
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+<!-- Data Privacy -->
+## Data Privacy
+In-app settings page contains a delete button that IMMEDIATELY deletes ALL USER DATA. 
+- Enter account email and password to verify credentials before deletion.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+User data can also be deleted upon request to: gohitcreator@gmail.com 
+- Send email, username, and password
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Data collected:
+- Approximate location
+- - Zip code entry or user's explicit choice share one-time location 
+- Authentication credentials
+- - Email - login
+- - Password - login
+- - Username / displayname (real name not required)
+- Age group
+- - Specific age is not collected
+- - Selected age group displayed to other users because the app promotes physical interaction between 2 users in real life
+- In-App Messaging
+- - History of chat maintained between users maintained
 
 
 
-<!-- LICENSE -->
-## License
+<!-- Privacy Policy -->
+## Privacy Policy
+Effective Date: 07/23/2023
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Thank you for choosing GoHit, the ultimate tennis app! This Privacy Policy outlines how we collect, use, and store data to ensure the core functionality of our app. By using GoHit, you agree to the terms and practices described in this policy.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### 1. Information We Collect
 
+We only collect data provided during the signup process, including:
 
+- Name
+- Email address
+- Username
+- Password (securely encrypted)
+- Zip code / one-time location
+
+### 2. How We Use Your Data
+
+The data collected during signup is solely used for the following purposes:
+
+- Creating and maintaining your GoHit account.
+- Allowing you to find and connect with nearby players and coaches.
+- Facilitating in-app messaging for seamless communication.
+- Sending reminders for matches and training sessions.
+### 3. Data Storage
+
+We take data security seriously. Your information is stored securely on our servers, protected with industry-standard encryption protocols.
+
+### 4. Data Sharing
+
+At GoHit, your privacy is paramount. We DO NOT share, sell, or rent your personal information to any third parties.
+
+### 5. Data Retention
+
+We retain your data only for as long as necessary to provide core app functionality and meet legal obligations.
+
+### 6. User Control
+
+You have full control over your data. You can access, modify, or delete your account information at any time within the app's settings.
+
+### 7. Changes to Privacy Policy
+
+We reserve the right to update and modify this Privacy Policy at any time. Any changes will be reflected with an updated effective date. Please review this policy periodically to stay informed of any revisions.
+
+### 8. Contact Us
+
+If you have any questions, concerns, or requests regarding your privacy or this Privacy Policy, please contact us at gohitcreator@gmail.com.
+
+By using GoHit, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
+
+This Privacy Policy was last updated on 07/23/2023.
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Email - gohitcreator@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/DevAggarwal01/gohit](https://github.com/DevAggarwal01/gohit)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
