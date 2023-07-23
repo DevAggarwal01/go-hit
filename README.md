@@ -56,11 +56,12 @@
     <ul>
         <li><a href="#to-do">TO-DO</a></li>
       </ul>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#data-privacy">Data Privacy</a></li>
+    <ul>
+        <li><a href="#data-collected">Data Collected</a></li>
+      </ul>
+    <li><a href="#privacy-policy">Privacy Policy</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
