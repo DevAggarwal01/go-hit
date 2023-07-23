@@ -124,7 +124,9 @@ User data can also be deleted upon request to: gohitcreator@gmail.com
   - Specific age is not collected
   - Selected age group displayed to other users because the app promotes physical interaction between 2 users in real life
 - In-App Messaging
-- - History of chat maintained between users maintained
+  - History of chat maintained between users maintained
+- User ID
+  - App generates identifiable code for each user
 
 
 
