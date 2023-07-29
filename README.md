@@ -67,7 +67,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE App -->
 # About The Project
 Introducing GoHit, the ultimate tennis app designed to elevate your game and connect you with a vibrant community of players and coaches! 
 Are you searching for fresh competition and new practice partners? Look no further! GoHit lets you easily find and connect with players nearby who share your passion for tennis. Say goodbye to long drives and hello to more playing time.
